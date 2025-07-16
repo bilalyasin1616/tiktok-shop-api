@@ -1,6 +1,6 @@
 {
   "name": "@bilalyasin1616/tiktok-shop-api",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
@@ -16,7 +16,8 @@
   ],
   "scripts": {
     "clean": "rm -rf dist",
-    "build": "pnpm clean && tsup"
+    "build": "pnpm clean && tsup",
+    "publish": "pnpm build && publish --access public"
   },
   "keywords": [],
   "author": "",

@@ -1,4 +1,4 @@
-import { API_OPERATION_TYPE_MAP, API_OBJECT, API_ENUM } from "../api";
+import { API_ENUM, API_OBJECT, API_OPERATION_TYPE_MAP } from "../api/apis";
 import { ClientConfiguration } from "./config";
 
 const createCallApiMap = (
